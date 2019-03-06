@@ -196,11 +196,16 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  background-color: darkgrey;
+  background-color: grey;
 }
 
 label {
   display: block;
+}
+
+.Header {
+  background-color: white;
+  text-align: left;
 }
 /* FONT FAMILY */
 
@@ -237,6 +242,7 @@ ol {
   width: 100%;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
+  padding-left: 0.25em;
 }
 
 #email {
@@ -245,6 +251,8 @@ ol {
   border-style: hidden;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
+  padding-left: 0.25em;
+  font-family: 'Anton', sans-serif;
 }
 
 #submit {
@@ -326,7 +334,7 @@ ol {
     label[for=email] {
         padding-top: 0.809em;
         padding-bottom: 0.809em;
-        width: 19%;
+        width: 18%;
         display: inline-block;
         text-align: center;
     }
