@@ -196,7 +196,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  background-color: grey;
+  background-color: white;
 }
 
 label {
@@ -204,8 +204,9 @@ label {
 }
 
 .Header {
-  background-color: white;
-  text-align: left;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 /* FONT FAMILY */
 
@@ -256,13 +257,12 @@ ol {
 }
 
 #submit {
-  background-color: white;
-  color: black;
+  background-color: red;
+  color: white;
   width: 100%;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
   border-radius: 0.25em;
-  border-style: hidden;
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -307,17 +307,6 @@ ol {
         font-weight: normal;
     }
 
-    #age-verification {
-        display: inline-block;
-        vertical-align: middle;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0.0em;
-        margin-right: 0.6em;
-        width: 2.007em;
-        height: 2.007em;
-    }
-
 }
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 658px) {
@@ -329,6 +318,7 @@ ol {
         padding-top: 0.809em;
         padding-bottom: 0.809em;
         display: block;
+        font-family: 'Anton', sans-serif;
     }
 
     label[for=email] {
@@ -344,35 +334,8 @@ ol {
         padding-top: 0.809em;
         padding-bottom: 0.809em;
         display: inline-block;
+        font-family: 'Anton', sans-serif;
 
-    }
-
-    /* age verification css */
-
-    #input-age-verification {
-        width: 80%;
-        float: right;
-        display: block;
-        overflow: hidden; /* keeps it in box */
-        text-align: left;
-    }
-
-    label[for=age-verification] {
-        display: inline-block;
-        text-align: left;
-        width: 86%
-
-    }
-
-    #age-verification {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0.0em;
-        margin-right: 0.6em;
-        width: 1.364em;
-        height: 1.664em;
     }
 
     /* submit css */
@@ -381,16 +344,15 @@ ol {
         width: 100%;
         display: block;
         overflow:hidden; /* keeps it in box */
+        font-family: 'Anton', sans-serif;
     }
 
     #submit {
         width: 80%;
-        float: right;
         display: inline-block;
         border-radius: 0.236em;
         border-width: 0;
-        border-style: hidden;
-        background-color: grey;
+        background-color: red;
         color: white;
         font-weight: 700;
     }
