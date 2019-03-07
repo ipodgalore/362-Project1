@@ -368,6 +368,15 @@ main {
         font-family: 'Anton', sans-serif;
     }
 
+    /* first + last name font change */
+    #fname {
+        font-family: 'Anton', sans-serif;
+    }
+
+    #lname {
+        font-family: 'Anton', sans-serif;
+    }
+
 
 }
 
