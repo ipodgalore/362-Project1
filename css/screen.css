@@ -432,6 +432,7 @@ h1 {
         padding-top: 0.809em;
         padding-bottom: 0.809em;
         display: inline-block;
+        border-style: hidden;
         font-family: 'Anton', sans-serif;
     }
 
@@ -440,6 +441,7 @@ h1 {
         padding-top: 0.809em;
         padding-bottom: 0.809em;
         display: inline-block;
+        border-style: hidden;
         font-family: 'Anton', sans-serif;
 
     }
