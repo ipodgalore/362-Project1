@@ -201,6 +201,7 @@ html {
 
 label {
   display: block;
+  text-align: center;
 }
 
 .Header {
@@ -230,6 +231,7 @@ p {
   line-height: 1.5em;
   font-style: normal;
   font-weight: normal;
+  text-align: center;
 }
 
 ol {
@@ -266,7 +268,14 @@ ol {
   font-family: 'Anton', sans-serif;
   border-style: hidden;
 }
+main {
 
+        display: block;
+        margin:auto;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+
+    }
 /* ===== MODULAR STYLES ===== */
 /* === media queiries === */
 /* 400px Break Point 1: Extra Small Devices, Phones */
@@ -308,6 +317,13 @@ ol {
         font-style: normal; 
         font-weight: normal;
     }
+    p {
+        text-align: center;
+    }
+    
+    label[for=email] {
+
+    }
 
 }
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
@@ -324,9 +340,7 @@ ol {
     }
 
     label[for=email] {
-        padding-bottom: 0.809em;
 
-        text-align: center;
     }
 
     #email {
@@ -369,7 +383,9 @@ ol {
         margin:auto;
         text-align: center;
         font-family: 'Anton', sans-serif;
+
     }
+
 
 }
 /* ===== STATE STYLES ======= */
