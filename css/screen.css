@@ -217,7 +217,22 @@ h1 {
 body {
   font-family: 'Anton', sans-serif;
 }
+    /* first + last name font change */
+    #fname {
+        font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 80%;
+    }
 
+    #lname {
+        font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 80%;
+    }
 /* ===== LAYOUT STYLES ====== */
 h1 {
   font-size: 2.5em;
@@ -318,12 +333,22 @@ main {
         font-style: normal; 
         font-weight: normal;
     }
-    p {
-        text-align: center;
+
+    /* first + last name font change */
+    #fname {
+        font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 80%;
     }
 
-    label[for=email] {
-
+    #lname {
+        font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 80%;
     }
 
 }
@@ -371,10 +396,18 @@ main {
     /* first + last name font change */
     #fname {
         font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 50%;
     }
 
     #lname {
         font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 50%;
     }
 
 
