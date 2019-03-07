@@ -249,12 +249,13 @@ ol {
 }
 
 #email {
-  width: 80%;
+  width: 85%;
   border-radius: 0.25em;
   border-style: hidden;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
   padding-left: 0.25em;
+  display: inline-block;
   font-family: 'Anton', sans-serif;
 }
 
@@ -320,7 +321,7 @@ main {
     p {
         text-align: center;
     }
-    
+
     label[for=email] {
 
     }
@@ -337,10 +338,6 @@ main {
         padding-bottom: 0.809em;
         display: inline-block;
         font-family: 'Anton', sans-serif;
-    }
-
-    label[for=email] {
-
     }
 
     #email {
