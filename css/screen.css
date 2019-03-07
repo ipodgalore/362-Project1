@@ -247,7 +247,7 @@ ol {
 }
 
 #email {
-  width: 100%;
+  width: 80%;
   border-radius: 0.25em;
   border-style: hidden;
   padding-top: 0.75em;
@@ -319,15 +319,13 @@ ol {
         width: 100%;
         padding-top: 0.809em;
         padding-bottom: 0.809em;
-        display: block;
+        display: inline-block;
         font-family: 'Anton', sans-serif;
     }
 
     label[for=email] {
-        padding-top: 0.809em;
         padding-bottom: 0.809em;
-        width: 18%;
-        display: inline-block;
+
         text-align: center;
     }
 
@@ -356,7 +354,6 @@ ol {
         border-width: 0;
         background-color: red;
         color: white;
-        font-weight: 700;
         font-family: 'Anton', sans-serif;
     }
 
