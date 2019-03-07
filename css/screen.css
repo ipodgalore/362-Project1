@@ -416,6 +416,74 @@ main {
 
 
 }
+/*CUSTOM TEXT SIZE CHANGE BASED OFF SCREEN RESOLUTION */
+@media screen and (max-width: 725px) {
+
+h1 {
+        font-size: 1.25em; /* 35.596px @ 22 */
+        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+        font-style: normal; 
+        font-weight: normal;
+    } 
+    /* email css */
+
+    #input-email {
+        width: 100%;
+        padding-top: 0.809em;
+        padding-bottom: 0.809em;
+        display: inline-block;
+        font-family: 'Anton', sans-serif;
+    }
+
+    #email {
+        width: 80%;
+        padding-top: 0.809em;
+        padding-bottom: 0.809em;
+        display: inline-block;
+        font-family: 'Anton', sans-serif;
+
+    }
+
+    /* submit css */
+
+    #input-submit {
+        width: 100%;
+        display: block;
+        overflow:hidden; /* keeps it in box */
+        font-family: 'Anton', sans-serif;
+    }
+
+    #submit {
+        width: 80%;
+        display: inline-block;
+        border-radius: 0.236em;
+        border-width: 0;
+        background-color: red;
+        color: white;
+        font-family: 'Anton', sans-serif;
+    }
+
+    /* first + last name font change */
+    #fname {
+        font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 50%;
+        padding-left: 0.25em;
+    }
+
+    #lname {
+        font-family: 'Anton', sans-serif;
+        border-style: hidden;
+        border-radius: 0.25em;
+        display: inline-block;
+        width: 50%;
+        padding-left: 0.25em;
+    }
+
+
+}
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
 @media screen and (min-width: 996px) {
