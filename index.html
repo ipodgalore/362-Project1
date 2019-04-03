@@ -6,11 +6,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/_reset.css">
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+  <script src="js/site.js"></script>
 </head>
 <body>
 <main id="content">
-  <form method="get" action="#null">
+  <form method="get" action="#null" autocomplete="on" name="Subscribe" onsubmit="return validateForm(),FIRSTN(),LASTN(),eMAIL()">
     <div class="Header">
       <h1>Supreme News and Giveaways</h1>
     </div>
@@ -29,7 +35,7 @@
       </li>
       <li id="input-email">
         <label for="input-email">Email:</label>
-        <input type="email" name="email" pattern="^.+@.+$" />
+        <input type="email" name="email" pattern="^.+@.+$" id="email" />
       </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Subscribe to Newsletter" />
@@ -37,7 +43,6 @@
     </ol>
   </form>
 </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
+
 </body>
 </html>

@@ -3,3 +3,11 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 });
+
+function validateForm() {
+  var z = document.forms["Subscribe"]["email"].value;
+  if (z == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+}
